@@ -4,6 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Bloques from './components/Bloques'
 import Presentacion from './components/Presentacion'
+import fotos from "./Utils/rutasgaleria.json"
+import { Link } from 'react-router-dom'
+import {Route,Routes} from "react-router-dom"
+import Categorias from './components/Categorias'
+import Foto from './components/Foto'
+
+
+
 
 
 function App() {
@@ -26,7 +34,15 @@ function App() {
 </div>
 <Presentacion/>
 <Bloques />
-    </div>
+<Routes>
+<Route path={"/galeria"} element={<Categorias />}></Route>
+<Route path={"/foto/:id"} element={<Foto />}></Route>
+</Routes>
+
+
+
+</div>
+
   )
 }
 
