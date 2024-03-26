@@ -10,5 +10,7 @@ export default {
       fontFamily: {
         'rock': ['Rock 3D', 'system-ui'],  },},},
   
-  plugins: [],
+        plugins: [
+          require('tailwindcss-no-scrollbar')
+        ]
 }
