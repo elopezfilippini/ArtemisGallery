@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'rock': ['Rock 3D', 'system-ui'],  },},},
+        'caveat': ['Caveat Brush', 'cursive'],  },},},
   
         plugins: [
           require('tailwindcss-no-scrollbar')
