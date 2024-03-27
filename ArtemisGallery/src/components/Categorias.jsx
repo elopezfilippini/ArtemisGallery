@@ -9,10 +9,10 @@ const Categorias = () => {
       tipos.push(foto.Tipo)}})
       console.log(tipos)
   return (
-    <div className='mt-10 gap-y-px	'>
+    <div className='relative mt-10 gap-y-px	'>
       {tipos.map(tipito =>(
-        <div>
-        <h1 className='text-left'>{tipito}:</h1>
+        <div className='relative'>
+        <h1 className="font-caveat">{tipito}:</h1>
         <Galerias tipo={tipito} />
 </div>
       ))}
