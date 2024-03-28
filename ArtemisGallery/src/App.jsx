@@ -28,7 +28,7 @@ function App() {
 
      <div className="w-[375px] flex justify-center items-center mt-5 m-b 10 md:w-full ">
 
-     <img src="/src/assets/flores.png" className='mt-0 h-[50px] justify-center align-middle'></img>
+     <img src="/src/assets/Flores.png" className='mt-0 h-[50px] justify-center align-middle'></img>
 
      </div>
      <div className='w-[375px] h-[250px] mt-10  flex overflow-x auto md:min-w-full rounded-xl px4 border-8 border-black-500 border-double md:w-[500px] md:h-[500px]'>
