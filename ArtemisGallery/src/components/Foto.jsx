@@ -13,12 +13,12 @@ const Foto = () => {
       <div className="flex justify-center items-center">
         <LiaChevronCircleLeftSolid
           onClick={() => navigate("/galeria")}
-          className="text-blue-900 text-[100px] cursor-pointer hover:text-purple-500"
+          className="text-blue-900 md:text-[100px] text-[23px]cursor-pointer hover:text-purple-500"
         />
       </div>
       <h1 className='font-caveat text-4xl md:text-7xl text-center mt-4'>" {monstruo.titulo} "</h1>
       <div className="flex justify-center mt-4">
-        <img className="object-contain max-w-full max-h-full" src={`../src/assets/galeriaTemi/s (${id}).jpeg`} alt={`Foto ${id}`} />
+        <img className="object-contain max-w-full max-h-[375px] md:max-h-full" src={`../src/assets/galeriaTemi/s (${id}).jpeg`} alt={`Foto ${id}`} />
       </div>
     </div>
   );
