@@ -99,7 +99,7 @@ body {
 
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("src/assets/Backgrounds/flores.png");
+  background-image: url("./assets/Backgrounds/flores.png");
   background-attachment: fixed;
   
   background-size:50%
