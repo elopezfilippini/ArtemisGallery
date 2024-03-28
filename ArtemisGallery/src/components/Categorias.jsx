@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import fotos from "../Utils/rutasgaleria.json"
 import Galerias from './Galerias'
 
 const Categorias = () => {
+  useEffect(() => {
+    // Hacer scroll al inicio del componente de forma suave
+    window.scrollTo({ top: 600, behavior: 'smooth' });
+  }, []);
   const tipos = []
   fotos.forEach(foto => {
     if (!tipos.includes(foto.Tipo)) {
