@@ -18,7 +18,7 @@ const Foto = () => {
       </div>
       <h1 className='font-caveat text-4xl md:text-7xl text-center mt-4'>" {monstruo.titulo} "</h1>
       <div className="flex justify-center mt-4">
-        <img className="object-contain max-w-full max-h-[375px] md:max-h-full" src={`../src/assets/galeriaTemi/s (${id}).jpeg`} alt={`Foto ${id}`} />
+        <img className="object-contain max-w-[375px]  md:max-w-full" src={`../src/assets/galeriaTemi/s (${id}).jpeg`} alt={`Foto ${id}`} />
       </div>
     </div>
   );
