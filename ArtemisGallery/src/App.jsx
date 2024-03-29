@@ -55,7 +55,6 @@ function App() {
 <Routes>
 <Route path={"/galeria"} element={<Categorias />}></Route>
 <Route path={"/foto/:id"} element={<Foto />}></Route>
-<Route path={"/work/"} element={<Work slides={slides} />}></Route>
 </Routes>
 
 
@@ -66,3 +65,5 @@ function App() {
 }
 
 export default App
+
+{/* <Route path={"/work"} element={<Work slides={slides} />}></Route> */}
