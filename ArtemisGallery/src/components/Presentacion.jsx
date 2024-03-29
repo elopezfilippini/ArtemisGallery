@@ -7,7 +7,7 @@ function Presentacion() {
             Mi nombre es Artemis y mi pasión es el arte, espero te gusten mis dibujos
             y puedas ver también como trabajo</h1></div>
             <div className="w-[375px] flex justify-center md:w-full">
-                <img className="h-[50px] w-[500px] object-center" src="src\assets\Backgrounds\separadorMariposas1.png"></img>
+                <img className="h-[50px] w-[500px] object-center" src="https://i.postimg.cc/DzJ3Hjkt/separador-Mariposas1.png"></img>
 
             </div>
             

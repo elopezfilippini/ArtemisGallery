@@ -17,11 +17,11 @@ import Work from './components/Work'
 
 function App() {
   let slides = [
-    "./src/assets/FotosSlider/1.jpeg",
-    "./src/assets/FotosSlider/2.jpeg",
-    "./src/assets/FotosSlider/3.jpeg",
-    "./src/assets/FotosSlider/4.jpeg",
-    "./src/assets/FotosSlider/5.jpeg",
+    "https://i.postimg.cc/tRzNQ95H/1.jpg",
+    "https://i.postimg.cc/3RXCwhQm/2.jpg",
+    "https://i.postimg.cc/KvvrmCq3/3.jpg",
+    "https://i.postimg.cc/cCd7gzdj/4.jpg",
+    "https://i.postimg.cc/5ypBwm0t/5.jpg",
   ];
 
   // let slides = [
@@ -32,22 +32,22 @@ function App() {
   // ];
 
   return (
-   <div> <div className='w-[375px] flex justify-center md:w-full'><img src="/src/assets/rainbow.png" className='md:w-full md:max-h-32 max-w-20'></img></div>
+   <div> <div className='w-[375px] flex justify-center md:w-full'><img src="https://i.postimg.cc/pL0nqTRs/rainbow.png" className='md:w-full md:max-h-32 max-w-20'></img></div>
   <div className='w-[375px] flex margin-0 top-0 border-grey gap-5 items-center justify-center md:w-full'>
   
-  <img src="/src/assets/totoro.png" className='hidden md:block md:w-full md:max-h-32 md:max-w-20'></img>
+  <img src="https://i.postimg.cc/qBny44x7/totoro.png" className='hidden md:block md:w-full md:max-h-32 md:max-w-20'></img>
   <h1 class="mt-4 text-5xl font-caveat text-center md:text-9xl" >Artemis Gallery</h1>
-   <img src="/src/assets/scribble.gif" className='hidden md:block md:w-full md:max-h-32 max-w-20'></img>
+   <img src="https://i.postimg.cc/DyTszHxP/scribble.gif" className='hidden md:block md:w-full md:max-h-32 max-w-20'></img>
   
      </div>
 
      <div className="w-[375px] flex justify-center items-center mt-5 m-b 10 md:w-full ">
 
-     <img src="/src/assets/Flores.png" className='mt-0 h-[50px] justify-center align-middle'></img>
+     <img src="https://i.postimg.cc/ZKxNvHgt/Flores.png" className='mt-0 h-[50px] justify-center align-middle'></img>
 
      </div>
      <div className='w-[375px] h-[250px] mt-10  flex overflow-x auto md:min-w-full rounded-xl px4 border-8 border-black-500 border-double md:w-[500px] md:h-[500px]'>
-    <img className="h-[250px] w-[500px] md:w-full  md:h-[500px] object-cover object-top rounded-xl"  style={{ objectPosition: '10% 75%' }} src="/src/assets/FotosSlider/1.jpeg" alt="Imagen"></img>
+    <img className="h-[250px] w-[500px] md:w-full  md:h-[500px] object-cover object-top rounded-xl"  style={{ objectPosition: '10% 75%' }} src="https://i.postimg.cc/tRzNQ95H/1.jpg" alt="Imagen"></img>
 </div>
 <Presentacion/>
 <Bloques />
@@ -55,6 +55,7 @@ function App() {
 <Routes>
 <Route path={"/galeria"} element={<Categorias />}></Route>
 <Route path={"/foto/:id"} element={<Foto />}></Route>
+<Route path={"/work"} element={<Work slides={slides} />}></Route>
 </Routes>
 
 
@@ -66,4 +67,4 @@ function App() {
 
 export default App
 
-{/* <Route path={"/work"} element={<Work slides={slides} />}></Route> */}
+{/* */}
