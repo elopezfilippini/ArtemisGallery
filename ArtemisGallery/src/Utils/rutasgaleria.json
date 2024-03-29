@@ -1,5 +1,5 @@
-[{"id": 1, "ruta": "src/assets/galeriaTemi/s (1).jpeg", "titulo":"Monstruo Verde", "Tipo":"Monstruos"},
-{"id": 2, "ruta": "src/assets/galeriaTemi/s (2).jpeg", "titulo":"Conejito", "Tipo":"Animales"},
+[{"id": 1, "ruta": "https://i.postimg.cc/6QZX72mg/s-1.jpg", "titulo":"Monstruo Verde", "Tipo":"Monstruos"},
+{"id": 2, "ruta": "https://i.postimg.cc/fyzngHRQ/s-2.jpg", "titulo":"Conejito", "Tipo":"Animales"},
 
 {"id": 4, "ruta": "src/assets/galeriaTemi/s (4).jpeg", "titulo":"Mariposas y Bichos", "Tipo":"Animales"},
 {"id": 5, "ruta": "src/assets/galeriaTemi/s (5).jpeg", "titulo":"Monstruo Verde", "Tipo":"Monstruos"},
